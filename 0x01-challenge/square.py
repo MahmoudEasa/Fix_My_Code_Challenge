@@ -3,7 +3,7 @@
 """ My square File """
 
 
-class Square():
+class square():
     """ Class Square """
 
     width = 0
@@ -23,7 +23,7 @@ class Square():
 
     def PermiterOfMySquare(self):
         """ Permiter of the square """
-        return (self.height * 4)
+        return (self.width * 4)
 
     def __str__(self):
         """ Str Function """
@@ -31,7 +31,7 @@ class Square():
 
 
 if __name__ == "__main__":
-    s = Square(width=12, height=9)
+    s = square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
     print(s.PermiterOfMySquare())
