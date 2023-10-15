@@ -1,18 +1,13 @@
 #!/usr/bin/python3
 
-""" My square File
-
-"""
+""" My square File """
 
 
 class Square():
-    """ Class Square
-    Return:
-        Nothing
-
-    """
+    """ Class Square """
 
     def __init__(self, *args, **kwargs):
+        """ Initial Function """
         if args:
             self.width = args[0]
             self.height = args[1]
@@ -29,10 +24,12 @@ class Square():
         return ((self.width * 2) + (self.height * 2))
 
     def __str__(self):
+        """ String Function """
         return ("{}/{}".format(self.width, self.height))
 
 
 if __name__ == "__main__":
+    """ Create Square """
     s = Square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
