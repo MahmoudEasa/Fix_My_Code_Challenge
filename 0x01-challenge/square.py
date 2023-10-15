@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """
 My square File
 """
@@ -10,8 +9,8 @@ class Square():
 
     def __init__(self, width=0, height=0):
         """ Initial Function """
-        self.width = width
-        self.height = height
+        self.__width = width
+        self.__height = height
 
     @property
     def width(self):
