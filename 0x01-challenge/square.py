@@ -23,7 +23,7 @@ class Square():
 
     def PermiterOfMySquare(self):
         """ Permiter of the square """
-        return (self.width * 4)
+        return (self.height * 4)
 
     def __str__(self):
         """ Str Function """
