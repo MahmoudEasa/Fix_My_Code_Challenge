@@ -1,10 +1,14 @@
 #!/usr/bin/python3
 
-""" My square File """
+""" My square File
+
+"""
 
 
 class Square():
-    """ Class Square """
+    """ Class Square
+
+    """
 
     def __init__(self, *args, **kwargs):
         if args:
@@ -23,7 +27,7 @@ class Square():
         return (self.width * 4)
 
     def __str__(self):
-        return "{}/{}".format(self.width, self.height)
+        return ("{}/{} test".format(self.width, self.height))
 
 
 if __name__ == "__main__":
