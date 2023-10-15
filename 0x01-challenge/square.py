@@ -7,6 +7,8 @@
 
 class Square():
     """ Class Square
+    Return:
+        Nothing
 
     """
 
@@ -24,10 +26,10 @@ class Square():
 
     def PermiterOfMySquare(self):
         """ Permiter of the square """
-        return (self.width * 4)
+        return ((self.width * 2) + (self.height * 2))
 
     def __str__(self):
-        return ("{}/{} test".format(self.width, self.height))
+        return ("{}/{}".format(self.width, self.height))
 
 
 if __name__ == "__main__":
