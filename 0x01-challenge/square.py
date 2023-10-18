@@ -48,7 +48,7 @@ class Square():
         """ Area of the square """
         return (self.__width * self.__height)
 
-    def PermiterOfMySquare(self):
+    def permiter_of_my_square(self):
         """ Permiter of the square """
         return ((self.__width * 2) + (self.__height * 2))
 
